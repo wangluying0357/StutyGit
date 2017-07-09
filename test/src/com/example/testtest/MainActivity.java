@@ -212,7 +212,7 @@ public class MainActivity extends Activity {
                 double lat = data.optDouble("LAT");  
                 double lng = data.optDouble("LNG");  
                 Log.e("", "------>lat: "+lat+"----->lng:"+lng);   
-                
+                fg
 //                mLocationGeoPoint = new GeoPoint((int)(lat*1E6), (int)(lng*1E6));  
                   
 //                CustomOverlay overlay = new CustomOverlay(mAppMain);  
