@@ -211,7 +211,8 @@ public class MainActivity extends Activity {
                 JSONObject data = datas.getJSONObject(0);
                 double lat = data.optDouble("LAT");  
                 double lng = data.optDouble("LNG");  
-                Log.e("", "------>lat: "+lat+"----->lng:"+lng);
+                Log.e("", "------>lat: "+lat+"----->lng:"+lng);   
+                
 //                mLocationGeoPoint = new GeoPoint((int)(lat*1E6), (int)(lng*1E6));  
                   
 //                CustomOverlay overlay = new CustomOverlay(mAppMain);  
